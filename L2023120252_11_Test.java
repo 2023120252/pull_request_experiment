@@ -5,7 +5,13 @@ import java.util.Arrays;
 import java.util.List;
 
 import static org.junit.Assert.assertEquals;
-
+/**
+ *
+ * 测试用例设计的总体原则:
+ * 1. 等价类划分: 将输入数据划分为几个等价类，选择有代表性的值作为测试用例。
+ * 2. 边界值分析: 考虑到数组的边界情况，如空数组、单元素数组、最大最小可能的数组长度。
+ * 3. 错误推测法: 根据经验预测容易出错的情况，如数组中有0的情况，以及所有元素都相同的情况。
+ */ 
 public class L2023120252_11_Test {
     @Test
     public void testThreeSumWithMultipleSolutions() {
